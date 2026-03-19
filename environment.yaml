@@ -1,0 +1,16 @@
+name: transform_vectors
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy>=1.21
+  - pyproj>=3.4
+  - cartopy            # for tests and visual examples
+  - matplotlib>=3.5   # for visual examples
+  - pytest>=7.0
+  - ruff
+  - pip
+  - pip:
+    - git+https://github.com/lenny-frno/transform_vectors.git
+    # - -e .
